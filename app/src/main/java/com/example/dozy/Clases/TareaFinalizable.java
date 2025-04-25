@@ -12,4 +12,12 @@ public class TareaFinalizable extends Tarea{
         super(uid, titulo, descripcion, fechaInicio, fechaTermino);
         this.finalizado = finalizado;
     }
+
+    public Boolean getFinalizado() {
+        return finalizado;
+    }
+
+    public void setFinalizado(Boolean finalizado) {
+        this.finalizado = finalizado;
+    }
 }
