@@ -71,4 +71,15 @@ public class TareaFinalizable{
     public void setFinalizado(Boolean finalizado) {
         this.finalizado = finalizado;
     }
+
+    public Map<String, Object> TareaFinalizableToMap() {
+        Map<String, Object> map = new HashMap<>();
+        map.put("Titulo",titulo);
+        map.put("Descripcion",descripcion);
+        map.put("FechaInicio",fechaInicio);
+        map.put("FechaTermino",fechaTermino);
+        map.put("Finalizado",finalizado);
+
+        return map;
+    }
 }
