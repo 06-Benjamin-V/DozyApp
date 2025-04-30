@@ -11,7 +11,6 @@ public class User {
     public User(){}
     //Constructor Para Registro
     public User(String name, String lastName, String email, String password, String phone) {
-        this.uid = uid;
         this.name = name;
         this.lastName = lastName;
         this.email = email;
